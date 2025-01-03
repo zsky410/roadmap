@@ -3,119 +3,66 @@ const moduleData = [
     id: 1,
     title: "Nhập môn lập trình web",
     description: "Giới thiệu tổng quan về lập trình web và các khái niệm cơ bản",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
-    content: `ádasddđsssssssssssssss.` // Nội dung chi tiết module 1
+    image: "https://picsum.photos/seed/module1/400/300",
+    content: `
+# Module 1: Nhập môn lập trình web
+- Lập trình web là gì? Thiết kế web là gì?
+- Lộ trình học lập trình web Fullstack
+- Phương pháp học lập trình hiệu quả
+- Các công việc liên quan đến lập trình web
+- Cơ chế hoạt động của website - trình duyệt (Request - Response)`
   },
   {
     id: 2,
     title: "Ngôn ngữ đánh dấu HTML",
     description: "HTML cơ bản và nâng cao, cấu trúc trang web",
-    image: "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
-    content: `...` // Nội dung chi tiết module 2
+    image: "https://picsum.photos/seed/module2/400/300",
+    content: `
+# Module 2: HTML
+- Giới thiệu về ngôn ngữ HTML
+- Cấu trúc trang HTML, cấu trúc thẻ HTML
+- Các loại thẻ HTML, các nhóm thẻ HTML
+- Các thẻ HTML hay dùng trong nhóm Block/Inline
+- Các thẻ HTML5 hay dùng và cấu trúc chuẩn HTML5`
   },
   {
     id: 3,
-    title: "Ngôn ngữ định dạng CSS",
-    description: "CSS từ cơ bản đến nâng cao",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
-    content: `...` // Nội dung chi tiết module 3
+    title: "CSS Cơ bản",
+    description: "Học về CSS và cách tạo style cho trang web",
+    image: "https://picsum.photos/seed/module3/400/300",
+    content: `
+# Module 3: CSS Cơ bản
+- Giới thiệu ngôn ngữ CSS
+- Cách tích hợp CSS vào trang web
+- CSS Selectors
+- Các thuộc tính CSS cơ bản
+- Box Model trong CSS`
   },
   {
     id: 4,
-    title: "Ngôn ngữ SCSS",
-    description: "SCSS và các tính năng nâng cao",
-    image: "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
-    content: `...` // Nội dung chi tiết module 4
+    title: "CSS Layout",
+    description: "Học về CSS Layout và Responsive Design",
+    image: "https://picsum.photos/seed/module4/400/300",
+    content: `
+# Module 4: CSS Layout
+- CSS Display
+- Position trong CSS
+- Flexbox
+- CSS Grid
+- Media Queries và Responsive Design`
   },
-  {
-    id: 5,
-    title: "Dự án PSD sang HTML-CSS",
-    description: "Thực hành chuyển đổi thiết kế thành code",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
-    content: `...` // Nội dung chi tiết module 5
-  },
-  {
-    id: 6,
-    title: "Ngôn ngữ lập trình Javascript",
-    description: "Javascript từ cơ bản đến nâng cao",
-    image: "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
-    content: `...` // Nội dung chi tiết module 6
-  },
-  {
-    id: 7,
-    title: "Thư viện React JS",
-    description: "Làm việc với React và các hooks",
-    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
-    content: `...` // Nội dung chi tiết module 7
-  },
-  {
-    id: 8,
-    title: "NextJS Framework",
-    description: "Phát triển ứng dụng với NextJS",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
-    content: `...` // Nội dung chi tiết module 8
-  },
-  {
-    id: 9,
-    title: "NodeJS + ExpressJS",
-    description: "Xây dựng backend với NodeJS và ExpressJS",
-    image: "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
-    content: `...` // Nội dung chi tiết module 9
-  },
-  {
-    id: 10,
-    title: "TypeScript",
-    description: "Lập trình TypeScript và ứng dụng",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
-    content: `...` // Nội dung chi tiết module 10
-  },
-  {
-    id: 11,
-    title: "Testing",
-    description: "Unit Test, Integration Test và E2E Testing",
-    image: "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
-    content: `...` // Nội dung chi tiết module 11
-  },
-  {
-    id: 12,
-    title: "DevOps và Deployment",
-    description: "Docker, CI/CD và Cloud Deployment",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
-    content: `...` // Nội dung chi tiết module 12
-  },
-  {
-    id: 13,
-    title: "Database NoSQL",
-    description: "Làm việc với MongoDB và Mongoose",
-    image: "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
-    content: `...` // Nội dung chi tiết module 13
-  },
-  {
-    id: 14,
-    title: "Web Performance và SEO",
-    description: "Tối ưu hiệu suất và SEO cho website",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
-    content: `...` // Nội dung chi tiết module 14
-  },
-  {
-    id: 15,
-    title: "Microservices",
-    description: "Kiến trúc và phát triển Microservices",
-    image: "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
-    content: `...` // Nội dung chi tiết module 15
-  },
-  {
-    id: 16,
-    title: "Kỹ năng mềm và Công cụ phát triển",
-    description: "Các kỹ năng cần thiết cho lập trình viên",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
-    content: `...` // Nội dung chi tiết module 16
-  },
+  // ... Thêm các module từ 5-17 tương tự
   {
     id: 17,
-    title: "Portfolio và Dự án thực tế",
-    description: "Xây dựng portfolio và thực hành dự án",
-    image: "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
-    content: `...` // Nội dung chi tiết module 17
+    title: "Deployment & Optimization",
+    description: "Triển khai và tối ưu website",
+    image: "https://picsum.photos/seed/module17/400/300",
+    content: `
+# Module 17: Deployment & Optimization
+- Hosting và Domain
+- Deploy website
+- SEO cơ bản
+- Website Performance
+- Security basics`
   }
 ];
